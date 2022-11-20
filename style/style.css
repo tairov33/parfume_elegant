@@ -39,6 +39,10 @@ body {
     font-family: var(--mont);
     font-size: 20px;
 }
+.logo_box p{
+    color: #ae7d4d;
+    font-weight: 500;
+}
 
 .logo_img {
     border-radius: 50%;
@@ -81,16 +85,32 @@ body {
     padding: 10px;
     align-items: center;
     font-family: var(--mont);
-    border: 1px solid;
+    border: 1px #d6249f solid;
     max-width: 300px;
     width: 100%;
+    color: var(--black);
 }
-
+.telegram{
+    border: 1px #0088cc solid;
+}
 .instagram_icon,
 .telegram_icon {
     font-size: 30px;
     border-radius: 50%;
     margin-right: 20px;
+}
+
+.instagram i{
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 110%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.instagram h2{
+  color: #d6249f;
+}
+.telegram i,
+.telegram h2{
+    color: #0088cc;
 }
 
 .order_text {
@@ -118,9 +138,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    border: 1px #219e21 solid;
     font-family: var(--mont);
     font-size: 20px;
+    color: #219e21;
+    font-weight: 500;
 }
 .footer{
     margin-top: 30px;
