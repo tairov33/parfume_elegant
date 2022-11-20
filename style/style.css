@@ -1,0 +1,134 @@
+@import '../style/font.css';
+@import '../font/all.min.css';
+
+:root {
+    --mont: 'Montserrat';
+    --black: #2D2D2D;
+    --yel: #F4CB38;
+    --adresbg: #F5B939;
+    --probg: #F5F8FF;
+    --header: linear-gradient(124.13deg, white 50%, #F4CB38 50%);
+    --green: #219e21;
+    --white: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background-image: var(--header);
+}
+
+.logo_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: var(--mont);
+    font-size: 20px;
+}
+
+.logo_img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    font-family: var(--mont);
+    font-size: 40px;
+}
+
+.text {
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--mont);
+    font-size: 25px;
+}
+
+.social_media {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram {
+    margin-bottom: 10px;
+}
+
+.instagram,
+.telegram {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    align-items: center;
+    font-family: var(--mont);
+    border: 1px solid;
+    max-width: 300px;
+    width: 100%;
+}
+
+.instagram_icon,
+.telegram_icon {
+    font-size: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.order_text {
+    text-align: center;
+    margin-top: 30px;
+    font-family: var(--mont);
+    font-size: 30px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.ordering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ordering a {
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    font-family: var(--mont);
+    font-size: 20px;
+}
+.footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
